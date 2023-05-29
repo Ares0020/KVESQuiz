@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <link rel="stylesheet" href="../WebFonts/stylesheet.css">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../stylesheet/quizcreate.css">
+
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="head flex">
+      <img src="" alt="" class="quiz__bg">
+      <i class="fa-regular fa-image"></i>
+    </div>
+
+    <div class="createquiz__details flex-sb">
+      <h4>Quiz Type: </h4>
+      <select name="quizType" id="type">
+        <option value="TOF">TOF</option>
+        <option value="calculate">Calculate</option>
+        <option value="count">Count</option>
+      </select>
+    </div>
+    <span class="btn__container">
+      <a href="#" class="add__question"><i class="fa-solid fa-plus"></i></a>
+
+    </span>
+
+    <div class="question__container">
+      <div class="quiz"><span class="quiz__type">TOF</span></div>
+      <div class="quiz"><span class="quiz__type">TOF</span></div>
+      <div class="quiz"><span class="quiz__type">TOF</span></div>
+      <div class="quiz"><span class="quiz__type">TOF</span></div>
+      <div class="quiz"><span class="quiz__type">TOF</span></div>
+      <div class="quiz"><span class="quiz__type">TOF</span></div>
+      <div class="quiz"><span class="quiz__type">TOF</span></div>
+      <div class="quiz"><span class="quiz__type">TOF</span></div>
+      <div class="quiz"><span class="quiz__type">TOF</span></div>
+      <div class="quiz"><span class="quiz__type">TOF</span></div>
+    </div>
+
+    <div class="btn__footer">
+      <button type="submit" id="cancel__create">Cancel</button>
+      <button type="submit" id="upload__create">Done</button>
+    </div>
+  </div>
+
+
+
+  <div class="flex-cl" id="createquiz__question tof">
+          <span class="question__info flex-sb">
+        <span class="quizNum__container">
+          <span class="quizNum">1</span>/
+          <span class="quizTotalNum">10</span>
+        </span>
+        
+        <span class="quizTime__container">
+          <span class="minutes">00</span>
+          :
+          <span class="seconds">00</span>
+        </span>
+      </span>
+    <div class="question__container">
+      <input type="text">
+    </div>
+
+    <div class="answer__container flex-sb">
+      <span class="true">
+        <button>T</button>
+      </span>
+      <span class="false"><button>F</button></span>
+    </div>
+
+  </div>
+</body>
+
+</html>

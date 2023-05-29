@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>ES8 Project</title>
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <link rel="stylesheet" href="../WebFonts/stylesheet.css">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../stylesheet/dashboard.css">
+
+
+</head>
+
+<body>
+
+  <div class="modal hide">
+    <div class="modal__content__container flex-wrap">
+      <div class="modal__content ">
+        <a href="quizCreation.html">
+
+          <i class="fa-solid fa-list-ol"></i>
+          Math
+        </a>
+
+      </div>
+      <div class="modal__content">
+        <a href="quizCreation.html">
+
+          <span class="abc">
+            <i class="fa-solid fa-a"></i>
+            <i class="fa-solid fa-b"></i>
+            <i class="fa-solid fa-c"></i>
+          </span>
+          English
+        </a>
+      </div>
+
+      <div class="modal__content">
+        <a href="quizCreation.html">
+
+          <span class="abc">
+            <i class="fa-solid fa-a"></i>
+            <i class="fa-solid fa-b"></i>
+            <i class="fa-solid fa-a"></i>
+            <i class="fa-solid fa-k"></i>
+            <i class="fa-solid fa-a"></i>
+            <i class="fa-solid fa-d"></i>
+            <i class="fa-solid fa-a"></i>
+
+          </span>
+          Filipino
+
+        </a>
+      </div>
+
+
+      <div class="modal__content">
+        <a href="quizCreation.html">
+
+          <i class="fa-solid fa-flask-vial"></i>
+          Science
+        </a>
+      </div>
+    </div>
+  </div>
+
+
+  <nav>
+    <ul class="mobile__nav flex-sb">
+      <p class="page__name">Dashboard</p>
+      <i class="fa-solid fa-bars" id="menu"></i>
+
+    </ul>
+    <div class="lrg__nav hide">
+      <div class="flex-cl">
+        <img src="" alt="" class="profile">
+        <h3 class="subHead name">Jethro Bahinting</h3>
+      </div>
+
+      <hr>
+
+      <ul class="flex-cl">
+        <li><a href="#">Student</a></li>
+        <li><a href="#">Quizzes</a></li>
+        <li><a href="#">Request</a></li>
+        <li class="create__quiz"><i class="fa-solid fa-plus"></i></li>
+      </ul>
+    </div>
+
+  </nav>
+  <main>
+    <section class="flex-cl card__container">
+      <div class="card">
+        <img src="../img/user.png" alt="" class="card__img">
+
+        <div class="flex-sb card__info">
+          <span class="card__name">Students</span>
+          <span class="card__num">00</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="../img/quizImg.png" alt="" class="card__img">
+        <div class="flex-sb card__info">
+          <span class="card__name">Quizzes</span>
+          <span class="card__num">00</span>
+        </div>
+      </div>
+    </section>
+    <hr>
+
+    <!-- Record Request -->
+    <section class="flex-cl record__request">
+      <h5 class="title">Record Request</h5>
+      <div class="flex-cl record__request__details">
+        <div class="flex-sb head__info">
+          <h4 class="record__request__name">Mark</h4>
+          <div class="flex record__request__respond">
+            <i class="fa-regular fa-circle-check confirm"></i>
+            <i class="fa-regular fa-trash-can delete"></i>
+          </div>
+        </div>
+        <div class="flex-sb details">
+          <div class="flex-cl record__request__details">
+            <h4 class="record__request__details__head">Details</h4>
+            <span class="flex-cl record__request__details__content">
+              <span class="record__request__details__content__container">
+                <span class="record__request__details__subHead">Subject: </span>
+                <span class="record__request__details__subj">Math</span>
+              </span>
+
+              <span class="record__request__details__content__container">
+                <span class="record__request__details__subHead">Score: </span>
+                <span class="flex record__request__details__score">0
+                  <span>/</span>
+                  <span class="record__request__details__totalScore">10</span>
+                </span>
+
+              </span>
+
+            </span>
+
+          </div>
+
+          <div class="flex-cl record__request__quizResult">
+            <span class="record__request__quizResult__head">Quiz Result:</span>
+            <span class="flex-wrap record__request__quizResult__content">
+              <span class="record__request__quizResult__container">
+                <span class="record__request__quizResult__num">Q1: </span>
+                <span class="record__request__quizResult__result"><i class="fa-regular fa-circle-xmark wrong"></i></span>
+              </span>
+              <span class="record__request__quizResult__container">
+                <span class="record__request__quizResult__num">Q2: </span>
+                <span class="record__request__quizResult__result"><i class="fa-regular fa-circle-xmark wrong"></i></span>
+              </span>
+              <span class="record__request__quizResult__container">
+                <span class="record__request__quizResult__num">Q3: </span>
+                <span class="record__request__quizResult__result"><i class="fa-regular fa-circle-xmark wrong"></i></span>
+              </span>
+              <span class="record__request__quizResult__container">
+                <span class="record__request__quizResult__num">Q4: </span>
+                <span class="record__request__quizResult__result"><i class="fa-regular fa-circle-xmark wrong"></i></span>
+              </span>
+              <span class="record__request__quizResult__container">
+                <span class="record__request__quizResult__num">Q5: </span>
+                <span class="record__request__quizResult__result"><i class="fa-regular fa-circle-xmark wrong"></i></span>
+              </span>
+              <span class="record__request__quizResult__container">
+                <span class="record__request__quizResult__num">Q6: </span>
+                <span class="record__request__quizResult__result"><i class="fa-regular fa-circle-xmark wrong"></i></span>
+              </span>
+              <span class="record__request__quizResult__container">
+                <span class="record__request__quizResult__num">Q7: </span>
+                <span class="record__request__quizResult__result"><i class="fa-regular fa-circle-xmark wrong"></i></span>
+              </span>
+              <span class="record__request__quizResult__container">
+                <span class="record__request__quizResult__num">Q8: </span>
+                <span class="record__request__quizResult__result"><i class="fa-regular fa-circle-xmark wrong"></i></span>
+              </span>
+              <span class="record__request__quizResult__container">
+                <span class="record__request__quizResult__num">Q9: </span>
+                <span class="record__request__quizResult__result"><i class="fa-regular fa-circle-xmark wrong"></i></span>
+              </span>
+              <span class="record__request__quizResult__container">
+                <span class="record__request__quizResult__num">Q10: </span>
+                <span class="record__request__quizResult__result"><i class="fa-regular fa-circle-xmark wrong"></i></span>
+              </span>
+
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="flex quizzes">
+      <h4 class="quizzes__head">Quizzes Created</h4>
+      <div class="flex-wrap quizzes__container">
+        <div class="quizzes__quiz"></div>
+        <div class="quizzes__quiz"></div>
+        <div class="quizzes__quiz"></div>
+        <div class="quizzes__quiz"></div>
+        <div class="quizzes__quiz"></div>
+        <div class="quizzes__quiz"></div>
+        <div class="quizzes__quiz"></div>
+      </div>
+    </section>
+  </main>
+
+
+  <script src="../scripts/dashboard.js"></script>
+</body>
+
+</html>

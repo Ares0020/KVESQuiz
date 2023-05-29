@@ -1,0 +1,123 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'ABeeZee', sans-serif;
+}
+
+body{
+  display: flex;
+}
+
+
+.container {
+  display: none;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: relative;
+}
+
+
+.head {
+  height: 40%;
+  border-bottom: 1px solid lightgray;
+}
+
+.head i {
+  display: none;
+}
+
+.head:hover i {
+  display: block;
+}
+
+.createquiz__details {
+  padding: 2rem;
+}
+
+.btn__container{
+  padding: 0 2rem;
+}
+
+.add__question {
+  height: 50px;
+  background-color: var(--success-clr);
+  border-radius: 10px;
+  position: relative;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  cursor: pointer;
+  color: whitesmoke;
+}
+
+
+.add__question i {
+  font-size: 30px;
+}
+
+.question__container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 1rem 5rem;
+  overflow-y: scroll;
+  gap: 0.5rem;
+
+}
+
+.question__container>* {
+  height: 50px;
+  width: 350px;
+  background-color: lightgrey;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+}
+
+
+.btn__footer {
+  position: fixed;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 1rem;
+}
+
+.btn__footer button {
+  padding: 16px 30px;
+  background-color: transparent;
+  text-transform: uppercase;
+  border: 0;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  color: whitesmoke;
+}
+
+#cancel__create {
+  background-color: var(--danger-clr);
+}
+
+#upload__create {
+  background-color: var(--primary-clr);
+}
+
+#tof{display: none;
+flex-direction: column;
+width: 100vw;
+height: 100vh;
+overflow-y: scroll;
+overflow-x: hidden;
+position: relative;
+}
+
+.question__info{
+  width: 100%;
+}
